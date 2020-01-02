@@ -17,6 +17,7 @@ Z = Re + Im # Matrix with all complexnumbers in our subset of the complex plane
 iters = np.empty((resolution, resolution)) # Array for storing number of iterations for each c in Z
 # iter val of max_iter means we assume bounded, less than max_iter means assume unbounded
 
+
 def zn(z, c):
     return z**2 + c
 
@@ -35,8 +36,8 @@ def get_modulus(c):
 
 for i, row in enumerate(Z):
     for j, c in enumerate(row):
-        Vals[i][j] = get_modulus(c)
+        iters[i][j] = get_modulus(c)
 
-plt.imshow(Vals)
+plt.imshow(iters)
 plt.savefig('mandelbrot.pdf')
 plt.show()
