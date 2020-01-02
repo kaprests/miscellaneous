@@ -39,5 +39,5 @@ for i, row in enumerate(Z):
         iters[i][j] = get_modulus(c)
 
 plt.imshow(iters)
-plt.savefig('mandelbrot.pdf')
+#plt.savefig('mandelbrotfig.pdf')
 plt.show()
