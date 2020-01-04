@@ -1,0 +1,1 @@
+![image](mandelbrotfig.png)
