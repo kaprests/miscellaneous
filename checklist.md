@@ -2,8 +2,38 @@
 
 ### Nybegynner
 - [] Terminal
-    - [] test
+    - [] Grunnleggende navigering (cd, ls)
+    - [] Skrive commit-meldinger (nano, vim, etc.)
 - [] Git
+    - [] Forståelse
+        - [] Commit
+            - [] Staging av endringer
+            - [] Commiting av endringer
+        - [] Branch
+        - [] Repository
+        - [] GitHub (Git != GitHub)
+    - [] Praksis1
+        - [] Stage og commite endringer i lokalt repo
+        - [] Lage og bytte til ny branch i lokal repo
+        - [] Oprette commits i den nye branchen
+        - [] Merge den nye branchen inn i main/master (hoved branch)
+        - [] Push repoet til f.eks. GitHub
+    - [] Praksis2
+        - [] Klone et eksisterende repo fra GitHub (f.eks. git-trening)
+        - [] Lag en ny branch i klonet repo
+        - [] Gjør endringer på den nye branchen
+        - [] push ny branchen til GitHub
+        - [] Opprett en pullrequest på GitHub og få en venn til å se gjennom for godkjenning
+    - [] Praksis3
+        - [] Sammarbeid med en venn, lag og løs merge-konflikter i f.eks. git-trening
 - [] Django
-- [] 
-
+    - [] Fullfør Djangos offisielle tutorial (poll app)
+    - [] Test issues
+        - [] Test issue 1 (Kanskje vi skal lage flere)
+- [] HTML/CSS
+    - [] Grunnleggende
+        - [] Bli kjent meg de vanligste HTML elementene/taggene (h1, h2..., p, div, osv.)
+        - [] Eksperimenter med CSS i elementenes "style" attribute
+        - [] Skriv CSS i et eget dokument (stylesheet), importer og bruk det i HTML-filen din
+    - [] Litt viderekommen
+        -[] Utforsk og bli kjent med Bootstrap
