@@ -30,7 +30,7 @@ norm = colors.BoundaryNorm(bounds, cmap.N)
 
 board = np.zeros((50, 50))
 
-response = requests.get("https://nabla.no/place/2/history")
+response = requests.get("https://nabla.no/place/3/history")
 print(response.status_code)
 
 
@@ -56,10 +56,6 @@ def animate(i):
 
 
 anim = FuncAnimation(fig, animate, frames=len(data), interval=20, blit=True, save_count=len(data))
-#anim.save('Nablaplace_timelapse.mp4')
+anim.save('Nablaplace_timelapse2.mp4')
 plt.show()
-
-
-
-
 
